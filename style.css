@@ -17,3 +17,112 @@ section {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+/* nav section */
+.register-button {
+    visibility: hidden;
+}
+
+/* header section */
+.slider h5 {
+    margin-top: 15px;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.slider p {
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.slider button {
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+@media only screen and (max-width:576px) {
+    .slider h5 {
+        margin-top: 25px;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .slider p {
+        font-size: 10px;
+        margin-bottom: 5px;
+
+    }
+
+    .slider button {
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+
+    .course-col {
+        display: none;
+    }
+
+    #about {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    #about span {
+        display: none;
+    }
+
+    .company {
+        display: none;
+    }
+
+    .success-4 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .slider h5 {
+        margin-top: 25px;
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .slider p {
+        font-size: 20px;
+        margin-bottom: 15px;
+
+    }
+
+    .slider button {
+        font-size: 30px;
+        margin-bottom: 0%;
+    }
+
+    .register-button {
+        visibility: visible;
+        margin-left: 270px;
+    }
+
+    .course-col {
+        display: none;
+    }
+
+    #about {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    #about span {
+
+        display: none;
+    }
+
+    .company {
+        display: none;
+    }
+}
