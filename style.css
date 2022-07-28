@@ -1,5 +1,7 @@
+/* font css  */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Finlandica:ital,wght@1,500&family=Poppins:wght@300&family=Roboto+Mono:ital,wght@1,200;1,400&family=Ubuntu:wght@500;700&display=swap');
 
+/* common css  */
 body {
     font-family: 'Bitter', serif;
     font-family: 'Finlandica', sans-serif;
@@ -11,11 +13,6 @@ body {
 section {
     margin-top: 100px;
     margin-bottom: 80px;
-}
-
-.register {
-    padding-top: 80px;
-    padding-bottom: 80px;
 }
 
 /* nav section */
@@ -41,7 +38,25 @@ section {
     margin-bottom: 0%;
 }
 
+/* .register section */
+
+.register {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.register-col {
+    text-align: left;
+    padding-left: 100px;
+}
+
+/*-------------- 
+mobile media query
+-------------- */
+
 @media only screen and (max-width:576px) {
+
+    /* header section  */
     .slider h5 {
         margin-top: 25px;
         font-size: 25px;
@@ -59,9 +74,18 @@ section {
         margin-bottom: 0%;
     }
 
+    /* course section  */
     .course-col {
         display: none;
     }
+
+    /* register selection */
+
+    .register-col {
+        text-align: center;
+    }
+
+    /* explore learning  section  */
 
     #about {
         white-space: nowrap;
@@ -74,9 +98,13 @@ section {
         display: none;
     }
 
+    /* company section  */
+
     .company {
         display: none;
     }
+
+    /* meet our successfull student section */
 
     .success-4 {
         display: none;
@@ -84,6 +112,8 @@ section {
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
+
+    /* header section  */
     .slider h5 {
         margin-top: 25px;
         font-size: 50px;
@@ -101,14 +131,25 @@ section {
         margin-bottom: 0%;
     }
 
+    /* navbar section  */
     .register-button {
         visibility: visible;
         margin-left: 270px;
     }
 
+    /* course section  */
+
     .course-col {
         display: none;
     }
+
+    /* register section */
+
+    .register-col {
+        text-align: center;
+    }
+
+    /* explore learning  section  */
 
     #about {
         white-space: nowrap;
@@ -121,6 +162,8 @@ section {
 
         display: none;
     }
+
+    /* company section  */
 
     .company {
         display: none;
